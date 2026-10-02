@@ -1,0 +1,9 @@
+# Raw dataset (keep external as per instructions)
+Dataset .csv
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
