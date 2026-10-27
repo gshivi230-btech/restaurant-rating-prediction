@@ -1,9 +1,32 @@
-# Raw dataset (keep external as per instructions)
-Dataset .csv
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+*.env
 
-# Jupyter Checkpoints
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*.class
+*.so
+
+# Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
 
-# Python cache
-__pycache__/
-*.pyc
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large Media Files
+*.mp4
+*.mov
+*.avi
+*.mkv
